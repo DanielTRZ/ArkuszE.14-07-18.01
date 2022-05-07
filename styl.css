@@ -31,7 +31,6 @@ a{
     float: left;
     
 }
-
 #stopka{
    background-color:#ffb31c;
    text-align: center;
@@ -44,4 +43,7 @@ li{
 table{
     border:  black solid 1px;
 
+}
+#right{
+    width: 405px;
 }
