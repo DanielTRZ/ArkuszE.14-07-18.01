@@ -40,10 +40,15 @@ a{
 li{
     list-style: square;
 }
-table{
-    border:  black solid 1px;
 
+td{
+    border:  black solid 1px;
+    width:405px;
+}
+table{
+    font-weight: normal;
+    width: auto;
 }
 #right{
-    width: 405px;
+    width:405px;
 }
