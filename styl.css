@@ -1,3 +1,24 @@
+body{
+    font-family:Verdana;
+}
 a{
     color: brown;
+}
+#baner{
+    background-color:#ffb31c;
+    text-align: center;
+}
+#panelsrodkowy{
+    background-color:#ffcb71; 
+}
+#stopka{
+   background-color:#ffb31c;
+    text-align: center;
+}
+#panelprawy{
+    background-color:#ffb31c;
+    text-align: right;
+}
+#panellewy{
+    background-color:#ffb31c;
 }
