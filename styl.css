@@ -37,18 +37,15 @@ a{
     height: 30px;
     clear: both;
 }
-li{
-    list-style: square;
-}
 
 td{
-    border:  black solid 1px;
-    width:405px;
+ border:  black solid 1px;
+ width: 100%;
 }
-table{
-    font-weight: normal;
-    width: auto;
-}
+
 #right{
     width:405px;
+}
+li{
+    list-style-type: square;
 }

@@ -2,6 +2,6 @@ kw1  INSERT INTO `uczen` VALUES  ('27' , 'Jasny' , 'Wiktoria' , '1')
 
 kw2  SELECT wychowawca.imie , wychowawca.nazwisko FROM wychowawca JOIN uczen ON uczen.id_klasy=wychowawca.id_klasy WHERE uczen.nazwisko='Markiewicz'
 
-kw3  CREATE USER 'Jan_Bogucki'@'localhost' IDENTIFIED BY 'jb_123' ;
+kw3  CREATE USER 'Jan_Bogucki'@'localhost' IDENTIFIED BY 'jb_123' 
 
 kw4  GRANT SELECT , INSERT , DELETE ON szkola.uczen TO 'Jan_Bogucki'@'localhost'

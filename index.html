@@ -12,12 +12,12 @@
   </head>
   <body>
   <div id="baner">
-      <h2>Projekt strony internetowe szkoły ponadgimnazjalnej</h2>
+      <h2>Projekt strony internetowej szkoły ponadgimnazjalnej</h2>
   </div>
   <div id="panellewy">
       <h3>Do pobrania</h3>
-     <li><a href="Kwerendy.txt" alt="zapytania SQL">zapytania SQL</a></li> 
-     <li><a href="baza.txt" alt="baza danych">baza danych</a></li>
+     <li><a href="Kwerendy.txt" download="Kwerednt.txt" alt="zapytania SQL">zapytania SQL</a></li> 
+     <li><a href="baza.txt" download="baza.txt" alt="baza danych">baza danych</a></li>
   </div>
   
     <div id="panelsrodkowy">
@@ -25,19 +25,19 @@
     <table>
          
       <tr>
-         <td>Treść zapytania </td> <td id="right">Zrzut ekranu</td> 
+         <td>Treść zapytania</td> <td id="right">Zrzut ekranu</td> 
       </tr>
       <tr>
-         <td>Treśc zapytania</td> <td id="right"><img src="przyklad.png" alt="przyklad"></td> 
+         <td>INSERT INTO `uczen` VALUES  ('27' , 'Jasny' , 'Wiktoria' , '1')</td> <td id="right"><img src="przyklad.png" alt="przyklad"></td> 
        </tr>
       <tr>
-         <td>Treść zapytania</td> <td><img src="przyklad.png" alt="przyklad"></td> 
+         <td>SELECT wychowawca.imie , wychowawca.nazwisko FROM wychowawca JOIN uczen ON uczen.id_klasy=wychowawca.id_klasy WHERE uczen.nazwisko='Markiewicz'</td> <td><img src="przyklad.png" alt="przyklad"></td> 
        </tr>
        <tr>
-         <td>Treść zapytania</td> <td><img src="przyklad.png" alt="przyklad"></td> 
+         <td>CREATE USER 'Jan_Bogucki'@'localhost' IDENTIFIED BY 'jb_123' </td> <td><img src="przyklad.png" alt="przyklad"></td> 
        </tr>
        <tr>
-         <td>Treść zapytania</td> <td><img src="przyklad.png" alt="przyklad"></td> 
+         <td>GRANT SELECT , INSERT , DELETE ON szkola.uczen TO 'Jan_Bogucki'@'localhost'</td> <td><img src="przyklad.png" alt="przyklad"></td> 
        </tr>
            
     </table>
@@ -49,17 +49,19 @@
      <h4>Oblicznie średniej ocen</h4>
      
      <ul>
-        <form method="get">  
+    
 
-        <li>Polak <input type="text" name="przycisk"></li>
-        <li>Nowak<input type="text" name="przycisk"></li>
-        <li>Rysik  <input type="text" name="przycisk"></li>
+        <li>Polak <input type="text" id="uczen1"></li>
+        <li>Nowak <input type="text" id="uczen2"></li>
+        <li>Rysik <input type="text" id="uczen3"></li>
         
-        <br><input type="submit" name="przycisk" value="oblicz">
- 
-        </form>
+        <button onclick="srednia()">oblicz</button>
+        <h4>Średnia ocen:</h4>
+        <div id="obliczenia"></div>
+    
      </ul>
-     <h4>Średnia ocen:</h4>
+     
+     
       
   </div>
 
@@ -67,7 +69,6 @@
      <h5>autor strony:00000000000</h5>
       
   </div>
-
+ <script type="text/javascript" src="skrypt.js"></script>
   </body>
-
 </html>
