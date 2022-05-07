@@ -7,18 +7,41 @@ a{
 #baner{
     background-color:#ffb31c;
     text-align: center;
-}
-#panelsrodkowy{
-    background-color:#ffcb71; 
-}
-#stopka{
-   background-color:#ffb31c;
-    text-align: center;
-}
-#panelprawy{
-    background-color:#ffb31c;
-    text-align: right;
+    height: 60px;
 }
 #panellewy{
     background-color:#ffb31c;
+    width: 20%;
+    height: 480px;
+    float: left;
+}
+#panelsrodkowy{
+    background-color:#ffcb71; 
+    width: 60%;
+    height: 480px;
+    float: left;
+    overflow: scroll;
+}
+
+#panelprawy{
+    background-color:#ffb31c;
+    text-align: right;
+    width: 20%;
+    height: 480px;
+    float: left;
+    
+}
+
+#stopka{
+   background-color:#ffb31c;
+   text-align: center;
+    height: 30px;
+    clear: both;
+}
+li{
+    list-style: square;
+}
+table{
+    border:  black solid 1px;
+
 }
