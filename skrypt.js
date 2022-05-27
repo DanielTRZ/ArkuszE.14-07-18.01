@@ -21,5 +21,5 @@ function srednia()
              oceny=(uczen1+uczen2+uczen3)/3;
            
             obliczenia.innerHTML=oceny;
-       }
+        }
 }
