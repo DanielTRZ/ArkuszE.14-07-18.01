@@ -5,7 +5,7 @@ var uczen2=document.getElementById('uczen2').value;
 var uczen3=document.getElementById('uczen3').value;
 var oceny=0;
     
-    if(isNaN(uczen1)||uczen1==""||isNaN(uczen2)||uczen2==""||isNaN(uczen3)||uczen3=="")
+if(isNaN(uczen1)||uczen1==""||isNaN(uczen2)||uczen2==""||isNaN(uczen3)||uczen3=="")
         {
           alert("Wpisz poprawne dane");
          // obliczenia.innerHTML ="wpisz poprawne dane";  
