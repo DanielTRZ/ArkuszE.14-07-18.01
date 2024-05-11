@@ -16,7 +16,7 @@ uczen1*=1;
 uczen2*=1;
 uczen3*=3;
 //parseInt("uczen1");
-          //parseInt("uczen2");
+//parseInt("uczen2");
           //parseInt("uczen3");
              oceny=(uczen1+uczen2+uczen3)/3;
            
