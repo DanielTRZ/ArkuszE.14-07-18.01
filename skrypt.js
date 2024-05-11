@@ -14,7 +14,7 @@ else
 {
 uczen1*=1;
 uczen2*=1;
-            uczen3*=3;
+uczen3*=3;
           //parseInt("uczen1");
           //parseInt("uczen2");
           //parseInt("uczen3");
