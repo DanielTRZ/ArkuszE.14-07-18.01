@@ -8,7 +8,7 @@ var oceny=0;
 if(isNaN(uczen1)||uczen1==""||isNaN(uczen2)||uczen2==""||isNaN(uczen3)||uczen3=="")
 {
 alert("Wpisz poprawne dane");
-         // obliczenia.innerHTML ="wpisz poprawne dane";  
+// obliczenia.innerHTML ="wpisz poprawne dane";  
         }
     else
         {
