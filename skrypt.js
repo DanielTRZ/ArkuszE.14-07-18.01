@@ -13,7 +13,7 @@ alert("Wpisz poprawne dane");
 else
 {
 uczen1*=1;
-            uczen2*=1;
+uczen2*=1;
             uczen3*=3;
           //parseInt("uczen1");
           //parseInt("uczen2");
