@@ -1,6 +1,6 @@
 function srednia()
 {
-    var uczen1=document.getElementById('uczen1').value;
+var uczen1=document.getElementById('uczen1').value;
     var uczen2=document.getElementById('uczen2').value;
     var uczen3=document.getElementById('uczen3').value;
     var oceny=0;
