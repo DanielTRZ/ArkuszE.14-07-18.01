@@ -11,7 +11,7 @@ alert("Wpisz poprawne dane");
 // obliczenia.innerHTML ="wpisz poprawne dane";  
 }
 else
-        {
+{
             uczen1*=1;
             uczen2*=1;
             uczen3*=3;
